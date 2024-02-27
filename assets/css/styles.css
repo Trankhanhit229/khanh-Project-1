@@ -609,10 +609,15 @@ a {
   width: 28px;
   height: 28px;
   border-radius: 4px;
+  background: #f9f9f9;
+}
+
+.footer .social-link + .social-link {
+  margin-left: 16px;
 }
 
 .footer .social-link:hover {
-  background-color: #888888;
+  background-color: #ebebeb;
 }
 
 .footer .row-bottom {
