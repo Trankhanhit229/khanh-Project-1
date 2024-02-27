@@ -66,6 +66,8 @@ a {
 }
 
 .hero-wrap {
+  display: flex;
+  align-items: center;
   position: relative;
   height: calc(100vh - 90px);
   background: #e6f0ff;
@@ -109,15 +111,15 @@ a {
   border-radius: 8px;
 }
 
-.hero {
+.hero-wrap {
   padding-top: 130px;
 }
 
-.hero .info {
+.hero-wrap .info {
   width: 51%;
 }
 
-.hero .sub-title {
+.hero-wrap .sub-title {
   font-size: 1.8rem;
   font-weight: 500;
   line-height: 1.5;
@@ -125,7 +127,7 @@ a {
   color: #687690;
 }
 
-.hero .title {
+.hero-wrap .title {
   margin-top: 8px;
   font-size: 6.2rem;
   font-weight: 700;
